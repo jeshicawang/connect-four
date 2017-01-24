@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Connect Four</title>
+    <link rel="stylesheet" href="default.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Connect Four</h1>
+    <div id="winner" class="hidden">WINNER!</div>
+    <table id="move">
+      <tr>
+        <td class="move"></td>
+        <td class="move"></td>
+        <td class="move"></td>
+        <td class="move"></td>
+        <td class="move"></td>
+        <td class="move"></td>
+        <td class="move"></td>
+      </tr>
+    </table>
+    <table id="board"></table>
+    <div id="turn">
+      <h4>Turn:</h4>
+      <p id="player"></p>
+    </div>
+    <div id="hover">
+      <div id="0" class="column side"></div>
+      <div id="1" class="column middle"></div>
+      <div id="2" class="column middle"></div>
+      <div id="3" class="column middle"></div>
+      <div id="4" class="column middle"></div>
+      <div id="5" class="column middle"></div>
+      <div id="6" class="column side"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.6.0/redux.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
